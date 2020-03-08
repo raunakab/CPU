@@ -7,20 +7,20 @@ Preface:
 
 Design Hierarchy:
 	CPU
-	|-- SystemMain
+	|-- SystemMain.v
 	|
 	|-- ALU
-	|	|-- Main
+	|	|-- Main.v
 	|	|
 	|	|-- Arithmetic
-	|	|	|-- Main
+	|	|	|-- Main.v
 	|	|	|
 	|	|	|-- Adder (w.: Subtractor, Incrementor, and Decrementor)
 	|	|	|-- Multiplier
 	|	|	|-- Two_Complementor
 	|	|
 	|	|-- Logic
-	|		|-- Main
+	|		|-- Main.v
 	|		|
 	|		|-- Ander
 	|		|-- Orrer
@@ -33,7 +33,7 @@ Design Hierarchy:
 	|		|-- LEQ_Comparator
 	|
 	|-- Registers
-	|	|-- Main
+	|	|-- Main.v
 	|	|
 	|	|-- re0
 	|	|-- re1
