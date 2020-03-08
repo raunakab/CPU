@@ -1,3 +1,7 @@
+`include "../Adder.v"
+
+
+
 `timescale 1ms / 1ns
 
 module main;
