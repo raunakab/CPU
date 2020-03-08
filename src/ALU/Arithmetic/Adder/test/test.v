@@ -1,10 +1,7 @@
-`include "../Adder.v"
-
-
-
+`include "../ADD.v"
 `timescale 1ms / 1ns
 
-module main;
+module test;
 	parameter N = 64;
 
 	reg  [N-1:0] a;
@@ -12,7 +9,7 @@ module main;
 	wire [N-1:0] result;
 	wire         carry;
 
-	f_ADD
+	ADD
 		#(
 			.N(N)
 		)	

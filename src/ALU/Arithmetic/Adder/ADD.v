@@ -12,7 +12,7 @@ module h_ADD
 
 endmodule
 
-module f_ADD
+module ADD
 	#(
 		parameter N = 2
 	)
