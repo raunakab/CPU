@@ -13,7 +13,9 @@ module h_ADD
 endmodule
 
 module f_ADD
-	#( parameter N = 2 )
+	#(
+		parameter N = 2
+	)
 	(
 		input  wire [N-1:0] a,
 		input  wire [N-1:0] b,
