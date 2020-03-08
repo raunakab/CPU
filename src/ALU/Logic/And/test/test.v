@@ -2,7 +2,7 @@
 `timescale 1ms / 1ns
 
 module test;
-	parameter N = 4;
+	parameter N = 64;
 
 	reg  [N-1:0] a;
 	reg  [N-1:0] b;
